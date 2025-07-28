@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "XkcdOde (Package)": {
+      "commandName": "MsixPackage",
+      "doNotLaunchApp": true
+    },
+    "XkcdOde (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
