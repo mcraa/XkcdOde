@@ -18,7 +18,7 @@
   <Properties>
     <DisplayName>xkcd for Command Palette</DisplayName>
     <PublisherDisplayName>mcraa</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.scale-100.png</Logo>
+    <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
