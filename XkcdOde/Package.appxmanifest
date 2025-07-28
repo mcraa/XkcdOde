@@ -9,16 +9,16 @@
   IgnorableNamespaces="uap uap3 rescap">
 
   <Identity
-    Name="XkcdOde"
-    Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+    Name="Mcraa.Xkcd"
+    Publisher="CN=mcraa, O=mcraa, L=Vastra Gotaland, S=Gothenburg, C=SE"
     Version="0.0.1.0" />
   <!-- When you're ready to publish your extension, you'll need to change the
        Publisher= to match your own identity -->
 
   <Properties>
-    <DisplayName>xkcd-ode</DisplayName>
-    <PublisherDisplayName>A Lone Developer</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <DisplayName>xkcd for Command Palette</DisplayName>
+    <PublisherDisplayName>mcraa</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.scale-100.png</Logo>
   </Properties>
 
   <Dependencies>
@@ -36,11 +36,11 @@
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
         DisplayName="xkcd"
-        Description="xkcd-ode unofficial xkcd viewer"
+        Description="xkcd-ode an unofficial xkcd viewer for Command Palette"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"  Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
       <Extensions>
@@ -55,8 +55,8 @@
           <uap3:AppExtension Name="com.microsoft.commandpalette"
             Id="ID"
             PublicFolder="Public"
-            DisplayName="xkcd-ode"
-            Description="xkcd-ode">
+            DisplayName="xkcd"
+            Description="xkcd-ode an unofficial xkcd viewer for Command Palette">
             <uap3:Properties>
               <CmdPalProvider>
                 <Activation>
